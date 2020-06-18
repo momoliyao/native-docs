@@ -89,7 +89,7 @@ pages/component/view/view?action=redirect
 ```Objcetive-C
 // 启动直达页面
 NSString *pagePath = @"pages/component/view/view?action=redirect";
-[DCUniMPSDKEngine openApp:k_AppId arguments:nil redirectPath:pagePaht];
+[DCUniMPSDKEngine openApp:k_AppId arguments:nil redirectPath:pagePath];
 ```
 
 **Android 示例**
